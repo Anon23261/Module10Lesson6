@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.isPaused = true;
                 this.elements.startBtn.classList.remove('active'); // Remove active class
             }
-        },
+        }
 
         // Reset timer
         reset() {
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             this.timeLeft = 0;
             this.updateDisplay();
             this.elements.startBtn.classList.remove('active'); // Remove active class
-        },
+        }
 
         // Update display
         updateDisplay() {
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 this.elements.display.classList.remove('ending');
             }
-        },
+        }
 
         // Handle timer completion
         handleTimerComplete() {
